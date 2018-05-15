@@ -9,13 +9,16 @@
 @import "modules/mixins";
 @import "modules/fonts";
 
+// Modules
+@import "theme-default/reset";
+@import "theme-default/wordpress";
+@import "theme-default/utils";
+@import "theme-default/print";
+
 // Partials
-@import "partials/reset";
-@import "partials/wordpress";
-@import "partials/utils";
-@import "partials/wrapper";
+@import "partials/global";
 @import "partials/header";
 @import "partials/nav";
 @import "partials/sidebar";
 @import "partials/footer";
-@import "partials/print";
+@import "partials/responsive";

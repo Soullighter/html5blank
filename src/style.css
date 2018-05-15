@@ -51,7 +51,7 @@
 }
 */
 /**
- * partials/reset
+ * theme-default/reset
  * ---
  * Reset file
  * NOTE: also `normalize.css` is used
@@ -99,7 +99,7 @@ input[type="search"] {
   text-shadow: none; }
 
 /**
- * partials/wordpress
+ * theme-default/wordpress
  * ---
  * Wordpess core classes
  */
@@ -146,7 +146,7 @@ input[type="search"] {
   line-height: 1.5; }
 
 /**
- * partials/utils
+ * theme-default/utils
  * ---
  * Utils classes
  */
@@ -162,34 +162,7 @@ input[type="search"] {
   margin: 0; }
 
 /**
- * partials/wrapper
- * ---
- */
-.wrapper {
-  max-width: 1280px;
-  padding: 0 15px;
-  margin: 0 auto;
-  position: relative; }
-
-/**
- * partials/header
- * ---
- */
-/**
- * partials/nav
- * ---
- * Menus
- */
-/**
- * partials/sidebar
- * ---
- */
-/**
- * partials/footer
- * ---
- */
-/**
- * partials/print
+ * theme-default/print
  * ---
  * Print version
  * (from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css)
@@ -238,3 +211,35 @@ input[type="search"] {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+/**
+ * partials/global
+ * ---
+ */
+.wrapper {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * partials/header
+ * ---
+ */
+/**
+ * partials/nav
+ * ---
+ * Menus
+ */
+/**
+ * partials/sidebar
+ * ---
+ */
+/**
+ * partials/footer
+ * ---
+ */
+/**
+ * partials/responsive
+ * ---
+ */
