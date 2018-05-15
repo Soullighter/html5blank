@@ -415,9 +415,9 @@ add_shortcode( 'html5_shortcode_demo_2', 'html5_shortcode_demo_2' ); // Place [h
 
 // Create 1 Custom Post type for a Demo, called HTML5-Blank
 function create_post_type_html5() {
-    register_taxonomy_for_object_type( 'category', 'html5-blank' ); // Register Taxonomies for Category
-    register_taxonomy_for_object_type( 'post_tag', 'html5-blank' );
-    register_post_type( 'html5-blank', // Register Custom Post Type
+    register_taxonomy_for_object_type( 'category', 'custom-post-type' ); // Register Taxonomies for Category
+    register_taxonomy_for_object_type( 'post_tag', 'custom-post-type' );
+    register_post_type( 'custom-post-type', // Register Custom Post Type
         array(
         'labels'       => array(
             'name'               => esc_html( 'HTML5 Blank Custom Post', 'html5blank' ), // Rename these to suit
