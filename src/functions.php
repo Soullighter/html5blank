@@ -448,7 +448,22 @@ function create_post_type_html5() {
         ) // Add Category and Post Tags support
     ) );
 }
-
+add_theme_support( 'post-formats', 
+    array( 
+        'aside', 
+        'gallery',
+        'link',
+        'image',
+        'quote',
+        'status',
+        'video',
+        'audio',
+        'chat'
+    ) 
+);
+add_post_type_support( 'post', 'post-formats' );
+add_post_type_support( 'page', 'post-formats' );
+// and other custom post types if you have them
 /*------------------------------------*\
     ShortCode Functions
 \*------------------------------------*/
